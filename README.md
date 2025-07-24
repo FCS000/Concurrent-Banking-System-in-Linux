@@ -8,6 +8,8 @@ A concurrent banking system implementation in Linux that processes financial tra
 ![OS](https://img.shields.io/badge/OS-Linux-9cf)
 
 🚀 Features
+
+
 Multi-process Architecture: Each transaction handled by separate child process
 
 Thread-safe Operations: Semaphore-protected account access
@@ -21,6 +23,8 @@ Automatic Retry: One retry attempt for failed transactions
 Shared Memory: Efficient inter-process communication
 
 🛠️ Technical Implementation
+
+
 Language: C
 
 Synchronization: POSIX semaphores
